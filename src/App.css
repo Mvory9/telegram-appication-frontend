@@ -150,6 +150,11 @@ body {
     transition: box-shadow 0.3s ease;
 }
 
+.block2__todo.completed {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
 .block2__todo-button {
     padding: 8px 20px;
     font-size: 14px;
